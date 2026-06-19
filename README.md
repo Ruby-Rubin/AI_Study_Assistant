@@ -206,6 +206,3 @@ Rubin Kanna
 
 Artificial Intelligence & Data Science Student
 
-
-```
-```

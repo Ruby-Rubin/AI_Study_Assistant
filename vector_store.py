@@ -1,4 +1,3 @@
-import faiss
 from langchain_huggingface import (
     HuggingFaceEmbeddings
 )

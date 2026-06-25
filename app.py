@@ -32,11 +32,6 @@ st.markdown("""
 .stTextInput input {
     border-radius: 12px;
 }
-if st.button("🗑️ Clear Chat"):
-
-    st.session_state.chat_history = []
-
-    st.rerun()
 
 /* Summary container */
 [data-testid="stVerticalBlockBorderWrapper"] {
@@ -50,7 +45,6 @@ section[data-testid="stSidebar"] {
 
 </style>
 """, unsafe_allow_html=True)
-
 if "summary" not in st.session_state:
     st.session_state.summary = None
 
